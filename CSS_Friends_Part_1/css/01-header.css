@@ -1,0 +1,55 @@
+/* PHASE 1: Header */
+
+
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: #eee;
+
+}
+
+.header {
+    background: #f00;
+    color: #fff;
+}
+
+.header a {
+    display: block;
+    padding: 10px 20px; 
+}
+
+
+.header-nav {
+
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.header-logo {
+    border-right: 1px solid #ccc;
+    font-weight: 800;
+  }
+
+.header-logo:hover {
+    background: #000;
+  }
+
+.header-list {
+    display: flex;
+
+}
+
+.header-list > li {
+    border-left: 1px solid #ccc;
+
+  }
+.header-list > li:hover {
+    background:black;
+  }
+  
